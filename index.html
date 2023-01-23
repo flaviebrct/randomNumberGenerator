@@ -11,25 +11,52 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container">
-
-        <h1 class="title">Générateur de nombre</h1>
+            
+        <div class="warp" aria-labelledby="warp-label">
+            <span id="warp-label" class="warp__placeholder">
+                Générateur de nombre
+            </span>
+            
+            <span aria-role="presentation">
+                <span class="warp__0">G</span>
+                <span class="warp__1">é</span>
+                <span class="warp__2">n</span>
+                <span class="warp__3">é</span>
+                <span class="warp__4">r</span>
+                <span class="warp__5">a</span>
+                <span class="warp__6">t</span>
+                <span class="warp__7">e</span>
+                <span class="warp__8">u</span>
+                <span class="warp__9">r</span>
+                <span class="warp__10"> </span>
+                <span class="warp__11">d</span>
+                <span class="warp__12">e</span>
+                <span class="warp__13"> </span>
+                <span class="warp__14">n</span>
+                <span class="warp__15">o</span>
+                <span class="warp__16">m</span>
+                <span class="warp__17">b</span>
+                <span class="warp__18">r</span>
+                <span class="warp__19">e</span>
+            </span>
+        </div>
 
         <div class="input-container">
 
             <div class="range-start-content">
-                <label for="range-start">Entrez votre valeur minimale</label>
-                <input type="number" name="range-start">
+                <label for="range-start">Entrez votre valeur minimale :</label>
+                <input type="number" id="range-start" name="range-start" placeholder="0">
             </div>
 
             <div class="range-end-content">
-                <label for="range-end">Entrez votre valeur maximale</label>
-                <input type="number" name="range-end">
+                <label for="range-end">Entrez votre valeur maximale :</label>
+                <input type="number" id="range-end" name="range-end" placeholder="0">
             </div>
 
         </div>
@@ -37,7 +64,7 @@
         <button class="generate-btn" type="button">Générer un nombre</button>
 
     </div>
-    
+
     <script type="module" src="script.js"></script>
 </body>
 

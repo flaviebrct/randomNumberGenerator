@@ -1,0 +1,197 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Lato, Helvetica, sans-serif;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: clamp(20px, 5vw, 50px) 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.24);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.warp__placeholder{
+    display: block;
+    position: absolute;
+    color: transparent;
+    font-size: .1px;
+}
+
+.warp {
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: -65px;
+    font: normal 35px 'Shrikhand';
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+[class*='warp__'] {
+    display: block;
+    position: absolute;
+}
+
+.warp__0 {
+    transform-origin: 50% 31px;
+    transform: translate(41.7285px,181.2179px) rotate(-1.165631rad);
+}
+
+.warp__1 {
+    transform-origin: 50% 31px;
+    transform: translate(57.6837px,156.1146px) rotate(-1.022639rad);
+}
+
+.warp__2 {
+    transform-origin: 50% 31px;
+    transform: translate(71.6262px,133.6988px) rotate(-0.882741rad);
+}
+
+.warp__3 {
+    transform-origin: 50% 31px;
+    transform: translate(92.1825px,114.0112px) rotate(-0.747864rad);
+}
+
+.warp__4 {
+    transform-origin: 50% 31px;
+    transform: translate(112.4122px,98.58340000000001px) rotate(-0.630896rad);
+}
+
+.warp__5 {
+    transform-origin: 50% 31px;
+    transform: translate(130.6994px,85.4525px) rotate(-0.518696rad);
+}
+
+.warp__6 {
+    transform-origin: 50% 31px;
+    transform: translate(155.1049px,75.1587px) rotate(-0.416276rad);
+}
+
+.warp__7 {
+    transform-origin: 50% 31px;
+    transform: translate(171.7204px,67.3776px) rotate(-0.322274rad);
+}
+
+.warp__8 {
+    transform-origin: 50% 31px;
+    transform: translate(196.6401px,60.1425px) rotate(-0.203149rad);
+}
+
+.warp__9 {
+    transform-origin: 50% 31px;
+    transform: translate(226.4067px,56.259299999999996px) rotate(-0.090338rad);
+}
+
+.warp__10 {
+    transform-origin: 50% 31px;
+    transform: translate(248.5765px,55.31229999999999px) rotate(0.007123rad);
+}
+
+.warp__11 {
+    transform-origin: 50% 31px;
+    transform: translate(272.3761px,57.0219px) rotate(0.1234rad);
+}
+
+.warp__12 {
+    transform-origin: 50% 31px;
+    transform: translate(300.8685px,62.1061px) rotate(0.25003rad);
+}
+
+.warp__13 {
+    transform-origin: 50% 31px;
+    transform: translate(325.5548px,69.6911px) rotate(0.370843rad);
+}
+
+.warp__14 {
+    transform-origin: 50% 31px;
+    transform: translate(346.1872px,80.7322px) rotate(0.504458rad);
+}
+
+.warp__15 {
+    transform-origin: 50% 31px;
+    transform: translate(371.6797px,96.4889px) rotate(0.658815rad);
+}
+
+.warp__16 {
+    transform-origin: 50% 31px;
+    transform: translate(388.6787px,119.94380000000001px) rotate(0.848616rad);
+}
+
+.warp__17 {
+    transform-origin: 50% 31px;
+    transform: translate(416.5038px,148.8358px) rotate(1.042311rad);
+}
+
+.warp__18 {
+    transform-origin: 50% 31px;
+    transform: translate(431.2278px,172.4732px) rotate(1.176725rad);
+}
+
+.warp__19 {
+    transform-origin: 50% 31px;
+    transform: translate(437.9063px,195.9657px) rotate(1.292995rad);
+}
+
+
+.input-container{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    bottom: 170px;
+}
+
+.range-start-content, .range-end-content{
+    font: 500 14px 'Montserrat';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.066);
+}
+
+input{
+    border: none;
+    width: 105%;
+    height: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 3px 10px;
+    color: #94bbe9;
+    font-weight: 600;
+}
+
+button{
+    position: relative;
+    top: -110px;
+    border: none;
+    width: 45%;
+    padding: 10px;
+    border-radius: 22px;
+    background-color: #94bbe9;
+    color: white;
+    font: 15px 'Shrikhand';
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
