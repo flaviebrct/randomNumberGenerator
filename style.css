@@ -157,8 +157,8 @@ body {
 .input-container{
     display: flex;
     gap: 30px;
-    position: relative;
-    bottom: 170px;
+    position: fixed;
+    bottom: 440px;
 }
 
 .range-start-content, .range-end-content{
@@ -183,8 +183,12 @@ input{
 }
 
 #result-container{
-    top: -100px;
+    top: -90px;
     position: relative;
+    font: 20px 'Shrikhand';
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin: 2px 8px;
 }
 
 button{
@@ -199,4 +203,9 @@ button{
     font: 15px 'Shrikhand';
     letter-spacing: 0.5px;
     box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+}
+
+#error-start, #error-end{
+    position: absolute;
+    bottom: -20px;
 }

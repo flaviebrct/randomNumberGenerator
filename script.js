@@ -10,14 +10,22 @@ button.addEventListener('click', ()=>{
     let rangeStart = document.querySelector("#range-start").value
     let rangeEnd = document.querySelector("#range-end").value
     let para = document.querySelector("#result")
+    let errorStart = document.querySelector("#error-start")
+    let errorEnd = document.querySelector("#error-end")
+    let text = "Vous devez entrer une valeur"
 
-    if (rangeStart.length == 0 ) {
-        let text = "Vous devez entrer une valeur de départ"
-        para.innerHTML = text
+    if (rangeStart.length == 0 && rangeEnd.length == 0) {
+        errorStart.innerHTML = text
+        errorEnd.innerHTML = text
+    } else if (rangeStart.length == 0) {
+        errorStart.innerHTML = text
+        errorEnd.innerHTML = null
     } else if (rangeEnd.length == 0) {
-        let text = "Vous devez entrer une valeur de fin"
-        para.innerHTML = text
+        errorEnd.innerHTML = text
+        errorStart.innerHTML = null
     } else {
+        errorStart.innerHTML = null
+        errorEnd.innerHTML = null
         let text = `${randomNumberGenerator(rangeStart, rangeEnd)}`
         para.innerHTML = text
     }
