@@ -158,7 +158,7 @@ body {
     display: flex;
     gap: 30px;
     position: fixed;
-    bottom: 440px;
+    bottom: 48%;
 }
 
 .range-start-content, .range-end-content{
@@ -208,4 +208,135 @@ button{
 #error-start, #error-end{
     position: absolute;
     bottom: -20px;
+}
+
+@media screen and (max-width : 768px){
+    .container{
+        border-radius: 2%;
+    }
+
+    .input-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .warp__placeholder{
+        position: absolute;
+        color: transparent;
+        font-size: .1px;
+    }
+    
+    .warp {
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+        top: -30%;
+        font: normal 30px 'Shrikhand';
+    }
+    
+    [class*='warp__'] {
+        display: block;
+        position: absolute;
+    }
+    
+    .warp__0 {
+        transform-origin: 50% 20px;
+        transform: translate(75.5486px,180px) rotate(0rad);
+    }
+    
+    .warp__1 {
+        transform-origin: 50% 20px;
+        transform: translate(97.2628px,180px) rotate(0rad);
+    }
+    
+    .warp__2 {
+        transform-origin: 50% 20px;
+        transform: translate(114.8468px,180px) rotate(0rad);
+    }
+    
+    .warp__3 {
+        transform-origin: 50% 20px;
+        transform: translate(135.9155px,180px) rotate(0rad);
+    }
+    
+    .warp__4 {
+        transform-origin: 50% 20px;
+        transform: translate(153.6525px,180px) rotate(0rad);
+    }
+    
+    .warp__5 {
+        transform-origin: 50% 20px;
+        transform: translate(170.586px,180px) rotate(0rad);
+    }
+    
+    .warp__6 {
+        transform-origin: 50% 20px;
+        transform: translate(189.0843px,180px) rotate(0rad);
+    }
+    
+    .warp__7 {
+        transform-origin: 50% 20px;
+        transform: translate(202.1449px,180px) rotate(0rad);
+    }
+    
+    .warp__8 {
+        transform-origin: 50% 20px;
+        transform: translate(219.755px,180px) rotate(0rad);
+    }
+    
+    .warp__9 {
+        transform-origin: 50% 20px;
+        transform: translate(239.7614px,180px) rotate(0rad);
+    }
+    
+    .warp__10 {
+        transform-origin: 50% 20px;
+        transform: translate(256.5276px,180px) rotate(0rad);
+    }
+    
+    .warp__11 {
+        transform-origin: 50% 20px;
+        transform: translate(273.0262px,180px) rotate(0rad);
+    }
+    
+    .warp__12 {
+        transform-origin: 50% 20px;
+        transform: translate(293.119px,180px) rotate(0rad);
+    }
+    
+    .warp__13 {
+        transform-origin: 50% 20px;
+        transform: translate(311.14px,180px) rotate(0rad);
+    }
+    
+    .warp__14 {
+        transform-origin: 50% 20px;
+        transform: translate(327.4605px,180px) rotate(0rad);
+    }
+    
+    .warp__15 {
+        transform-origin: 50% 20px;
+        transform: translate(348.4865px,180px) rotate(0rad);
+    }
+    
+    .warp__16 {
+        transform-origin: 50% 20px;
+        transform: translate(367.4209px,180px) rotate(0rad);
+    }
+    
+    .warp__17 {
+        transform-origin: 50% 20px;
+        transform: translate(396.6915px,180px) rotate(0rad);
+    }
+    
+    .warp__18 {
+        transform-origin: 50% 20px;
+        transform: translate(416.1164px,180px) rotate(0rad);
+    }
+    
+    .warp__19 {
+        transform-origin: 50% 20px;
+        transform: translate(432.4985px,180px) rotate(0rad);
+    }
 }
